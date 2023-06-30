@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "newsgoth";
+    src: url("../fuentes/TheSkinny.otf") format("truetype");
+}
+
+
+@media (min-width:575px) {
+    body {
+        background-color: palevioletred;
+    }
+
+    .objeto_desaparece {
+        display: none;
+    }
+    .chocotorta_desaparece{
+        display: none;
+    }
+    .rabas_desaparece{
+        display: none;
+    }
+    .risotto_desaparece{
+        display: none;
+    }
+    .vitel_desaparece{
+        display: none;
+    }
+
+}
+
+@media (max-width:575px) {
+    .img-tiramisu {
+        display: none;
+    }
+    .img-chocotorta{
+        display: none;
+    }
+    .img-rabas{
+        display: none;
+    }
+    .img-vitel{
+        display: none;
+    }
+    .img-risotto{
+        display: none;
+    }
+}
+
+@media(min-width:768px){
+    body{
+        background-color: rgb(111, 170, 172);
+    }
+
+}
+@media (min-width:992px){
+    body{
+        background-color: blanchedalmond;
+    }
+    .video_desaparece{
+        display: none;
+    }
+}
+
+
+
+.objeto_desaparece {
+    width: 25%;
+    height: 30%;
+    border-radius: 3%;
+}
+
+.chocotorta_desaparece {
+    width: 25%;
+    height:25%;
+    border-radius: 3%;
+}
+
+.vitel_desaparece {
+    width: 20%;
+    height: 20%;
+    border-radius: 3%;
+}
+
+.risotto_desaparece {
+    width: 25%;
+    height: 25%;
+    border-radius: 3%;
+}
+
+.rabas_desaparece {
+    width: 18%;
+    height: 18%;
+    border-radius: 3%;
+}
+
+.WhatsApp {
+    position: fixed;
+    width: 4%;
+    height: 4%;
+    bottom: 0;
+    right: 0;
+}
+
+header {
+    width: 98vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-logo {
+    width: 10%;
+    height: 90%;
+    border-radius: 10%;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
+    color: black;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    font-size: 1, 5rem;
+    text-decoration: underline;
+
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1, 8rem;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+nav {
+    width: 98vw;
+    height: 6vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    width: 98vw;
+    height: 210vh;
+    font-size: 0, 5rem;
+
+}
+
+.img-tiramisu {
+    width: 20%;
+    height: 20%;
+    border-radius: 3%;
+
+}
+
+.img-chocotorta {
+    width: 20%;
+    height: 20%;
+    border-radius: 3%;
+}
+
+.img-vitel {
+    width: 20%;
+    height: 20%;
+    border-radius: 3%;
+}
+
+.img-risotto {
+    width: 20%;
+    height: 20%;
+    border-radius: 3%;
+}
+
+.img-rabas {
+    width: 20%;
+    height: 20%;
+    border-radius: 3%;
+}
+
+p {
+
+    text-align: left;
+    font-style: normal;
+    font-size: 0, 5rem;
+}
+
+footer {
+    width: 98vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+footer p {
+    font-size: 0, 5rem;
+    font-family: "newsgoth";
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
