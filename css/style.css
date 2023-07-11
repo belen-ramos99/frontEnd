@@ -69,26 +69,26 @@
 }
 
 .chocotorta_desaparece {
-    width: 25%;
-    height:25%;
+    width: 10%;
+    height:15%;
     border-radius: 3%;
 }
 
 .vitel_desaparece {
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 15%;
     border-radius: 3%;
 }
 
 .risotto_desaparece {
-    width: 25%;
-    height: 25%;
+    width: 10%;
+    height: 15%;
     border-radius: 3%;
 }
 
 .rabas_desaparece {
-    width: 18%;
-    height: 18%;
+    width: 10%;
+    height: 15%;
     border-radius: 3%;
 }
 
@@ -121,7 +121,7 @@ header {
     border-radius: 10%;
 }
 
-img {
+.logo_redes {
     width: 40px;
     height: 40px;
 
@@ -166,39 +166,41 @@ nav a {
 
 section {
     width: 98vw;
-    height: 210vh;
+    height: 390vh;
     font-size: 0, 5rem;
 
 }
 
+
 .img-tiramisu {
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 10%;
     border-radius: 3%;
 
 }
 
 .img-chocotorta {
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 10%;
     border-radius: 3%;
+    
 }
 
 .img-vitel {
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 10%;
     border-radius: 3%;
 }
 
 .img-risotto {
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 10%;
     border-radius: 3%;
 }
 
 .img-rabas {
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 10%;
     border-radius: 3%;
 }
 
