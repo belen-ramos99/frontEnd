@@ -133,6 +133,10 @@ h1 {
     color: black;
     text-decoration: underline;
 }
+.boton{
+    border-radius: 5%;
+    background-color:pink;
+}
 
 h2 {
     font-family: 'Roboto Mono', monospace;
@@ -224,7 +228,11 @@ footer p {
     font-size: 0, 5rem;
     font-family: "newsgoth";
 }
-
+.boton_footer{
+    border-radius: 5%;
+    border-color: brown;
+    background-color: pink;
+}
 .logos {
     display: flex;
     justify-content: center;
